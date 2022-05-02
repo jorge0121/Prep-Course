@@ -157,15 +157,15 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var redondear = Mach.round(num)
-  return redondear
+  return Mach.round(num)
+  
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var redondear = Mach.cell(num)
-  return redondear
+   return Mach.cell(num)
+
 }
 
 function numeroRandom() {
@@ -182,7 +182,7 @@ function esPositivo(numero) {
   if (num>0) {return "Es Positivo"}
     else {
         if (num==0){return false}
-           else {return "es negativo"}
+           else {return "Es negativo"}
     }
 }
 
@@ -204,7 +204,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola "+ nombre + "!"
+  return "Hola "+ nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
