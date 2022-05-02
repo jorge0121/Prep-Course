@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  console.log("este  es un string" + str);
+  return str;
   
 }
 
@@ -157,14 +157,14 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return Mach.round(num)
+  return Math.round(num)
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-   return Mach.cell(num)
+   return Math.ceil(num)
 
 }
 
@@ -179,9 +179,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (num>0) {return "Es Positivo"}
+  if (numero>0) {return "Es Positivo"}
     else {
-        if (num==0){return false}
+        if (numero==0){return false}
            else {return "Es negativo"}
     }
 }
