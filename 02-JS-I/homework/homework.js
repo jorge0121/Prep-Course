@@ -250,7 +250,7 @@ function esVocal(letra){
   var letras= letra.length
   if (letras>1){return "Dato incorrecto"}
       else{if (letra == "a" || letra == "e" || letra =="i" || letra == "o" || letra == "u" ){
-        return "Es Vocal"
+        return "Es vocal"
       }
     else{return "Dato incorrecto"}
 }}
