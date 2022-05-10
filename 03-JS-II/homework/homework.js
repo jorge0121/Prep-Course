@@ -123,8 +123,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  var esint= numero % 1;
-  if(esint === 0 ){
+  
+  if(numero % 1 === 0 ){
     return "true"
   }else{
     return "false"
@@ -211,7 +211,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+
   
 }
 
