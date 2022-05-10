@@ -201,10 +201,10 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   for(var i = 0 ; i<=10 ; i++){
     var resul = 6*i;
-    console.log(resul)
+    
   
   }
-    
+    return resul
   
 }
 
