@@ -162,7 +162,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Error"
   }
   if (num1 > num2 && num1 > num3 && num1 > 0){
-    return "Numero 1 es mayor y positivo"
+    return "Número 1 es mayor y positivo"
   }
  
   if(num3 > num1 && num3 > num2){
