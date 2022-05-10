@@ -108,10 +108,10 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero < 50 && numero > 20){
-    return "true"
+    return true
   }
   else{
-    return "false"
+    return false
   }
 }
 
@@ -125,9 +125,9 @@ function esEntero(numero) {
   // Tu código:
   
   if(numero % 1 === 0 ){
-    return "true"
+    return true
   }else{
-    return "false"
+    return false
   }
 
 }
