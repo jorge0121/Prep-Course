@@ -194,7 +194,7 @@ function mesesDelAño(array) {
     }
   }
   if(array2.length < 3){
-    return "No se encontraron los mese perdidos"
+    return "No se encontraron los meses perdidos"
   }else{
     return array2
   }
